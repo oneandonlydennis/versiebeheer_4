@@ -14,6 +14,8 @@
   echo "We gaan nu pullen";
   echo "Dit is een test in pullen van de code van github.com";
 
+  echo "OOP is the bomb";
+
   // Maak een nieuwe instantie van de class Text
   $tekst = new Text();
   
