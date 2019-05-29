@@ -34,6 +34,12 @@
   function showtext(){
         document.getElementById('hidden').style.cssText = 'display: block;';
     }
+    function showtext2(){
+        document.getElementById('hidden2').style.cssText = 'display: block;';
+    }
+    function showimg(){
+        document.getElementById('hidden3').style.cssText = 'display: block;';
+    }
   </script>
     <link rel="stylesheet" href="style.css">
     <!-- Bootstrap CSS -->
@@ -41,7 +47,9 @@
   </head>
   <body>
       <h1 onclick="showtext()">Dit is een leuke nieuwe website met erg veel content ! :)</h1>
-      <h2 class="hidden" id="hidden">maar max is fucking gay</h2>
+      <h2 onclick="showtext2()" class="hidden" id="hidden">maar max is fucking gay</h2>
+      <h2 onclick="showimg()"class="hidden" id="hidden2">Grapje! Max is een uitstekende student! Klik hier maar voor bewijs!</h2>
+      <img src="yarr.gif" alt="yarr" class="hidden" id="hidden3">
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
