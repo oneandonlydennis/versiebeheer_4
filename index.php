@@ -18,6 +18,7 @@
 
   // Maak een nieuwe instantie van de class Text
   $tekst = new Text();
-  
+
+  //max is best wel gay
   echo $tekst->wattext;
 ?>
